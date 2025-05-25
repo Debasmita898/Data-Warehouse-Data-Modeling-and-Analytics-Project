@@ -33,7 +33,9 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 ---
-### BI: Analytics & Reporting (Data Analysis)
+### BI: Analytics & Reporting (Data Analytics)
+A comprehensive collection of SQL scripts for data exploration, analytics, and reporting. These scripts cover various analyses such as database exploration, measures and metrics, time-based trends, cumulative analytics, segmentation, and more.
+This scripts contains SQL queries designed to help data analysts and BI professionals quickly explore, segment, and analyze data within a relational database. Each script focuses on a specific analytical theme and demonstrates best practices for SQL queries.
 
 #### Objective
 Develop SQL-based analytics to deliver detailed insights into:
@@ -62,6 +64,11 @@ data-warehouse-project/
 │   ├── gold/                           # Scripts for creating analytical models
 │
 ├── tests/                              # Test scripts and quality files
+│
+├── data_analytics/
+│   ├── exploratory_data_analysis(EDA)/ # Scripts for database,dimension, date_range and measure exploration. Magnitude and 
+│                                         ranking analysis.
+│   ├── advanced_analytics/             # Scripts for change_over_time analysis, cumulative analysis, performance analysis,  │                                         data_segmentation analysis, part to whole analysis, customers and product reports.
 │
 ├── README.md                           # Project overview and instructions
 ```
